@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Personal Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body id="bproject">
+    <a id="homeiconc" href="index.html"><img src="images/home.png"width="30px",height="25px"></a>
+    <section id="project">
+        <div class="pheading">
+            <h3>My Project</h3>
+            <span class="sp">Let's See my work</span>
+        </div>
+         <div class="imgsection">
+        <img src="images/ss1.png">
+        <img src="images/ss2.png">
+        <div class="pdescription">
+            <h3>Hospital Management System</h3>
+           <p class="ptag show-more">
+            The project HMS includes registration of patients,<br>storing their details into the system.<br> 
+            The software has the facility to give a unique id for every patient and stores the details of every patient.<br>
+            The HMS can be entered using a username and password.<br> It is accessible either by an administrator .Only they can add data into the database. The data can be retrieved easily.<br>
+           <span id="dots"></span></p>
+            <button id="read" onclick="read()">read more</button></a>
+        </div>
+    </div>        
+    <div class="imgsection2">
+        <img src="images/ss3.png">
+        <img src="images/ss4.png">
+ </div>
+ <div class="vm">
+ <span id="more" class="ptag"> 
+<h1>Project Modules</h1>
+<div>
+<p>Hospital Management System is a web application<br> for the hospital which manages doctors and patients.<br> In this project,I have used PHP and MySQL database.
+<br>The entire project mainly consists of 3 modules, which are<br>
+<b>i)Admin module<br>
+ii)User module<br>
+iii)Doctor module<br></b>
+</p>
+</div>
+<h1>1.Admin module:</h1>
+<div>
+<p>Dashboard: In this section, admin can view the Patients, Doctors, Appointments and New queries.<br>
+Doctors: In this section, admin can add doctor’s specialization and mange doctors (Add/Update).<br>
+Users: In this section, admin can view users detail(who take online appointment) and also have right to delete irrelevant user.
+Patients: In this section, admin can view patient’s details.
+Appointment History: In this section, admin can view appointment history.
+Contact us Queries: In this section, admin can view queries which are send by users.
+Doctor Session Logs: In this section, admin can see login and logout time of doctor.
+User Session Logs: In this section, admin can see login and logout time of user.
+Reports: In this section, admin can view reports of patients in particular periods.
+Patient Search: In this section, admin can search patient with the help of patient name and mobile number.
+Admin can also change his/her own password.</p>
+</div>
+<h1>2.User module:</h1>
+<p>
+Dashboard: In this section, patients can view the his/her profile, Appointments and Book Appointment.
+Book Appointment: In this section, Patient can book his/her appointment.
+Appointment History: In this section, Patients can see his/her own appointment history.
+Medical History: In this section, Patients can see his/her own appointment history.
+User can update his/her profile, change the password and recover the password.</p>
+<h1>3.Doctor module:</h1>
+<p>
+Dashboard: In this section, doctor can view his/her own profile and online appointments.
+Appointment History: In this section, Doctor can see patient’s appointment history.
+Patients: In this section, doctor can manage patients (Add/Update).
+Search: In this section, doctor can search patient with the help of patient name and mobile number.
+Doctor can also update his profile, change the password and recover the password.
+</p>
+<button id="read" onclick="read()">read less</button></a>
+       
+</span>
+</div>
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
