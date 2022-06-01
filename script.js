@@ -1,13 +1,3 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY >20 ){
-            $('.nb').addClass("sticky");
-        }
-        else{
-            $('.nb').removeClass("sticky");
-        }
-    })
-})
 // contact section
 function myfunc(event){
     var full_name= document.getElementById("full-name").value;
